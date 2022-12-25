@@ -20,6 +20,7 @@ struct ContentView2: View {
             .map { _ in false }
     ).removeDuplicates()
     
+    
     var logo: some View {
         ZStack {
             Circle()
@@ -35,7 +36,9 @@ struct ContentView2: View {
     
     var registrationBlockView: some View {
         VStack {
-            SecureField("Login:", text: $login)
+            
+            
+            TextField("Login:", text: $login)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
             SecureField("Password:", text: $password)
@@ -85,9 +88,23 @@ struct ContentView2: View {
     }
 }
 
+struct WeatherView: View {
+    var body: some View {
+        Image("star")
+            .frame(width: 10, height: 200)
+            .debug()
+    }
+}
+
 extension UIApplication {
     func endEditing() {
         sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
 
+extension View {
+    func debug() -> Self {
+        print(Mirror(reflecting: self).subjectType)
+        return self
+    }
+}
