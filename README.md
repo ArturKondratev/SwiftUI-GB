@@ -6,4 +6,7 @@
 
 :white_check_mark: Урок 1. Знакомство со SwiftUI
 - [X] Верстка экрана авторизации
+
+:white_check_mark: Урок 2. Layout
+- [X] View, ViewModifier и ViewBuilder
   
