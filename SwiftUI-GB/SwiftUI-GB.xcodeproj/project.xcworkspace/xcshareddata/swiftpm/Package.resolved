@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ASCollectionView",
+        "repositoryURL": "https://github.com/apptekstudios/ASCollectionView",
+        "state": {
+          "branch": null,
+          "revision": "4288744ba484c1062c109c0f28d72b629d321d55",
+          "version": "2.1.1"
+        }
+      },
+      {
+        "package": "DifferenceKit",
+        "repositoryURL": "https://github.com/ra1028/DifferenceKit",
+        "state": {
+          "branch": null,
+          "revision": "073b9671ce2b9b5b96398611427a1f929927e428",
+          "version": "1.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
