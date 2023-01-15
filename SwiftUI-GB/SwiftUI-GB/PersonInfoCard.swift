@@ -11,7 +11,6 @@ struct ContentView: View {
     var body: some View {
         VStack{
             UserCardStack(name: "Mark", color: .black) {
-                
             }
             UserCardStack(name: "Mike", icon: "star", color: .blue) {
                 
